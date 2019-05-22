@@ -83,8 +83,8 @@ $(function()
 
 $(window).load(function()
 { 
-    $(".loading-page .sk-folding-cube").fadeOut(100,
+    $(".loading-page .sk-folding-cube").fadeOut(300,
     function(){
-        $(".loading-page").fadeOut(100);
+        $(".loading-page").fadeOut(500);
     });
 });
